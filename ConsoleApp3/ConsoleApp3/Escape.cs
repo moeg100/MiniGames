@@ -72,8 +72,29 @@ namespace ConsoleApp3
             for (int y = 0; y < height; y++)
             {
                 for (int x = 0; x < width; x++)
+                {
+                    // Adding color to the objects.
+                    char c = grid[y, x];
+                    switch (c)
+                    {
+                        case PLAYER:
+                            Console.ForegroundColor = ConsoleColor.Green; break;
+
+                        case ENEMY:
+                            Console.ForegroundColor = ConsoleColor.Red; break;
+
+                        case EXIT:
+                            Console.ForegroundColor = ConsoleColor.Blue; break;
+
+                        default:
+                            Console.ForegroundColor = ConsoleColor.White; break;
+
+
+                    }
                     Console.Write(grid[y, x] + " ");
+                }
                 Console.WriteLine(); // Add new line after drawing the grid.
+                Console.ResetColor();
             }
             Console.WriteLine("\nUse WASD or Arrow keys to move. Reach 'X' to win!");
         }
@@ -84,7 +105,7 @@ namespace ConsoleApp3
             {
                 grid[enemy.y, enemy.x] = EMPTY;
                 // This line calculates the new x and y for the enemy by moving it closer to the player.
-                int newX = enemy.x + Math.Sign(playerPos.x - enemy.x); 
+                int newX = enemy.x + Math.Sign(playerPos.x - enemy.x);
                 int newY = enemy.y + Math.Sign(playerPos.y - enemy.y);
 
                 if (newX >= 0 && newX < width && newY >= 0 && newY < height) // This ensures the enemy doesn't move outside the grid
@@ -181,11 +202,11 @@ namespace ConsoleApp3
             }
         }
 
-       static void Main(string[] args)
+        static void Main(string[] args)
         {
             Console.Title = "Escape Game";
             new EscapeGame().Run();
-        } 
+        }
     }
 
 }

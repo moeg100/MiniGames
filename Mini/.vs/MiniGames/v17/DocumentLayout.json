@@ -1,21 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Name\\Desktop\\MiniGames-file\\Mini\\",
+  "WorkspaceRootPath": "C:\\Users\\NANI\\Desktop\\Complete\\MiniGames\\Mini\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{928E359D-0B72-77BF-8E36-E281196A7477}|..\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj|c:\\users\\name\\desktop\\minigames-file\\consoleapp3\\consoleapp3\\escape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE5A3377-0672-491D-9B88-9EBC444BA19E}|MiniGames\\MiniGames.csproj|c:\\users\\name\\desktop\\minigames-file\\mini\\minigames\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE5A3377-0672-491D-9B88-9EBC444BA19E}|MiniGames\\MiniGames.csproj|solutionrelative:minigames\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE5A3377-0672-491D-9B88-9EBC444BA19E}|MiniGames\\MiniGames.csproj|c:\\users\\name\\desktop\\minigames-file\\mini\\minigames\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE5A3377-0672-491D-9B88-9EBC444BA19E}|MiniGames\\MiniGames.csproj|solutionrelative:minigames\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE5A3377-0672-491D-9B88-9EBC444BA19E}|MiniGames\\MiniGames.csproj|c:\\users\\name\\desktop\\minigames-file\\mini\\minigames\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE5A3377-0672-491D-9B88-9EBC444BA19E}|MiniGames\\MiniGames.csproj|c:\\users\\nani\\desktop\\complete\\minigames\\mini\\minigames\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE5A3377-0672-491D-9B88-9EBC444BA19E}|MiniGames\\MiniGames.csproj|solutionrelative:minigames\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5A3377-0672-491D-9B88-9EBC444BA19E}|MiniGames\\MiniGames.csproj|c:\\users\\nani\\desktop\\complete\\minigames\\mini\\minigames\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE5A3377-0672-491D-9B88-9EBC444BA19E}|MiniGames\\MiniGames.csproj|solutionrelative:minigames\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,61 +18,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Escape.cs",
-              "DocumentMoniker": "C:\\Users\\Name\\Desktop\\MiniGames-file\\ConsoleApp3\\ConsoleApp3\\Escape.cs",
-              "RelativeDocumentMoniker": "..\\ConsoleApp3\\ConsoleApp3\\Escape.cs",
-              "ToolTip": "C:\\Users\\Name\\Desktop\\MiniGames-file\\ConsoleApp3\\ConsoleApp3\\Escape.cs",
-              "RelativeToolTip": "..\\ConsoleApp3\\ConsoleApp3\\Escape.cs",
-              "ViewState": "AgIAAL8AAAAAAAAAAAAAAL8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T18:38:04.602Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\Name\\Desktop\\MiniGames-file\\Mini\\MiniGames\\MainForm.cs",
-              "RelativeDocumentMoniker": "MiniGames\\MainForm.cs",
-              "ToolTip": "C:\\Users\\Name\\Desktop\\MiniGames-file\\Mini\\MiniGames\\MainForm.cs",
-              "RelativeToolTip": "MiniGames\\MainForm.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAIwIoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T03:06:20.878Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\Name\\Desktop\\MiniGames-file\\Mini\\MiniGames\\Menu.cs",
-              "RelativeDocumentMoniker": "MiniGames\\Menu.cs",
-              "ToolTip": "C:\\Users\\Name\\Desktop\\MiniGames-file\\Mini\\MiniGames\\Menu.cs",
-              "RelativeToolTip": "MiniGames\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T02:57:54.427Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Name\\Desktop\\MiniGames-file\\Mini\\MiniGames\\Menu.cs",
-              "RelativeDocumentMoniker": "MiniGames\\Menu.cs",
-              "ToolTip": "C:\\Users\\Name\\Desktop\\MiniGames-file\\Mini\\MiniGames\\Menu.cs [Design]",
-              "RelativeToolTip": "MiniGames\\Menu.cs [Design]",
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\NANI\\Desktop\\Complete\\MiniGames\\Mini\\MiniGames\\MainForm.cs",
+              "RelativeDocumentMoniker": "MiniGames\\MainForm.cs",
+              "ToolTip": "C:\\Users\\NANI\\Desktop\\Complete\\MiniGames\\Mini\\MiniGames\\MainForm.cs [Design]",
+              "RelativeToolTip": "MiniGames\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T02:52:00.521Z",
+              "WhenOpened": "2025-04-24T19:06:04.443Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\NANI\\Desktop\\Complete\\MiniGames\\Mini\\MiniGames\\MainForm.cs",
+              "RelativeDocumentMoniker": "MiniGames\\MainForm.cs",
+              "ToolTip": "C:\\Users\\NANI\\Desktop\\Complete\\MiniGames\\Mini\\MiniGames\\MainForm.cs",
+              "RelativeToolTip": "MiniGames\\MainForm.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T19:02:59.863Z",
+              "EditorCaption": ""
             }
           ]
         }

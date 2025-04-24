@@ -36,6 +36,9 @@
             btnNewGame = new Button();
             lblAttempts = new Label();
             lstIncorrectGuesses = new ListBox();
+            rbEasy = new RadioButton();
+            rbNormal = new RadioButton();
+            rbHard = new RadioButton();
             SuspendLayout();
             // 
             // lblWord
@@ -105,11 +108,50 @@
             lstIncorrectGuesses.Size = new Size(106, 154);
             lstIncorrectGuesses.TabIndex = 6;
             // 
+            // rbEasy
+            // 
+            rbEasy.AutoSize = true;
+            rbEasy.Location = new Point(553, 57);
+            rbEasy.Name = "rbEasy";
+            rbEasy.Size = new Size(48, 19);
+            rbEasy.TabIndex = 7;
+            rbEasy.TabStop = true;
+            rbEasy.Text = "Easy";
+            rbEasy.UseVisualStyleBackColor = true;
+            rbEasy.CheckedChanged += rbEasy_CheckedChanged;
+            // 
+            // rbNormal
+            // 
+            rbNormal.AutoSize = true;
+            rbNormal.Location = new Point(553, 93);
+            rbNormal.Name = "rbNormal";
+            rbNormal.Size = new Size(65, 19);
+            rbNormal.TabIndex = 8;
+            rbNormal.TabStop = true;
+            rbNormal.Text = "Normal";
+            rbNormal.UseVisualStyleBackColor = true;
+            rbNormal.CheckedChanged += rbNormal_CheckedChanged;
+            // 
+            // rbHard
+            // 
+            rbHard.AutoSize = true;
+            rbHard.Location = new Point(553, 133);
+            rbHard.Name = "rbHard";
+            rbHard.Size = new Size(51, 19);
+            rbHard.TabIndex = 9;
+            rbHard.TabStop = true;
+            rbHard.Text = "Hard";
+            rbHard.UseVisualStyleBackColor = true;
+            rbHard.CheckedChanged += rbHard_CheckedChanged;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(700, 422);
+            Controls.Add(rbHard);
+            Controls.Add(rbNormal);
+            Controls.Add(rbEasy);
             Controls.Add(lstIncorrectGuesses);
             Controls.Add(lblAttempts);
             Controls.Add(btnNewGame);
@@ -134,6 +176,9 @@
         private System.Windows.Forms.Button btnNewGame;
         private System.Windows.Forms.Label lblAttempts;
         private System.Windows.Forms.ListBox lstIncorrectGuesses;
+        private RadioButton rbEasy;
+        private RadioButton rbNormal;
+        private RadioButton rbHard;
     }
 }
 
