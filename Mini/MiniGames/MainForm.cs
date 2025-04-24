@@ -134,7 +134,19 @@ namespace Guessing_Game
 
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+            //Application.Exit();
+
+         
+
+            
+            this.Hide();
+
+            
+            Form menuForm = Application.OpenForms["Menu"]; 
+            if (menuForm != null)
+            {
+                menuForm.Show();  
+            }
         }
     }
 }

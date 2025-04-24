@@ -18,14 +18,15 @@ namespace MiniGames
             this.Hide();
             MainForm mainGame = new MainForm();
             mainGame.ShowDialog();
+
          
+
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("TEST");
-
+           
             try
             {
                
