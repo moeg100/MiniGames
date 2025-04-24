@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 
 
 namespace ConsoleApp3
@@ -29,17 +30,21 @@ namespace ConsoleApp3
 
         private void InitializeGame()
         {
-            // Initialize grid
+            // Initialize or fill the grid
             grid = new char[height, width];
             for (int y = 0; y < height; y++)
+            {
                 for (int x = 0; x < width; x++)
+                {
                     grid[y, x] = EMPTY;
+                }
+            }
 
             // Place player
-            playerPos = (1, 1);
+            playerPos = (2, 2);
             grid[playerPos.y, playerPos.x] = PLAYER;
 
-            // Place 2x2 exit
+            // Place 2x2 exit by replacing the '.' with X.
             int exitX = width - 3;
             int exitY = height - 3;
             exitPos[0] = (exitX, exitY);
@@ -54,9 +59,9 @@ namespace ConsoleApp3
             for (int i = 0; i < 3; i++)
             {
                 do
-                {
+                {   // Assign random tuple values for the enemies.
                     enemyPos[i] = (rand.Next(3, width - 3), rand.Next(3, height - 3));
-                } while (grid[enemyPos[i].y, enemyPos[i].x] != EMPTY);
+                } while (grid[enemyPos[i].y, enemyPos[i].x] != EMPTY); // If the cell is not empty, evaluates to true and the loop continue.
                 grid[enemyPos[i].y, enemyPos[i].x] = ENEMY;
             }
         }
@@ -68,7 +73,7 @@ namespace ConsoleApp3
             {
                 for (int x = 0; x < width; x++)
                     Console.Write(grid[y, x] + " ");
-                Console.WriteLine();
+                Console.WriteLine(); // Add new line after drawing the grid.
             }
             Console.WriteLine("\nUse WASD or Arrow keys to move. Reach 'X' to win!");
         }
@@ -78,17 +83,24 @@ namespace ConsoleApp3
             foreach (var enemy in enemyPos)
             {
                 grid[enemy.y, enemy.x] = EMPTY;
-                int newX = enemy.x + Math.Sign(playerPos.x - enemy.x);
+                // This line calculates the new x and y for the enemy by moving it closer to the player.
+                int newX = enemy.x + Math.Sign(playerPos.x - enemy.x); 
                 int newY = enemy.y + Math.Sign(playerPos.y - enemy.y);
 
-                if (newX >= 0 && newX < width && newY >= 0 && newY < height)
+                if (newX >= 0 && newX < width && newY >= 0 && newY < height) // This ensures the enemy doesn't move outside the grid
                 {
-                    enemyPos[Array.IndexOf(enemyPos, enemy)] = (newX, newY);
-                    if (grid[newY, newX] != PLAYER && grid[newY, newX] != EXIT)
+                    enemyPos[Array.IndexOf(enemyPos, enemy)] = (newX, newY);  // Update the new enemy position.
+
+
+                    if (grid[newY, newX] != PLAYER && grid[newY, newX] != EXIT) // This condition checks whether the new position where the enemy wants to move(newX, newY) is not occupied by the player or the exit.
+                    {
                         grid[newY, newX] = ENEMY;
+                    }
                 }
                 else
+                {
                     grid[enemy.y, enemy.x] = ENEMY;
+                }
             }
         }
 
@@ -114,7 +126,7 @@ namespace ConsoleApp3
             while (!gameOver)
             {
                 DrawGrid();
-                var key = Console.ReadKey(true).Key;
+                var key = Console.ReadKey(true).Key; // if key pressed it will not be shown in the console as the user types
 
                 // Move player
                 grid[playerPos.y, playerPos.x] = EMPTY;
