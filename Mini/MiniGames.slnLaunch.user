@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "MiniGames\\MiniGames.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "..\\Guessing-Game-test\\Guessing-Game-test\\Guessing Game\\Guessing Game.csproj",
+        "Action": "StartWithoutDebugging"
+      }
+    ]
+  }
+]
