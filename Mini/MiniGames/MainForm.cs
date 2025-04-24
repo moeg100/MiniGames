@@ -13,7 +13,14 @@ namespace Guessing_Game
 {
     public partial class MainForm : Form
     {
-        public List<string> words = new List<string> { "apple", "grape", "lemon", "melon", "peach", "123", "@", "92929292929" };
+     public List<string> words = new List<string> {
+    "fork", "lamp", "moon", "tree", "code",         
+    "apple", "water", "table", "liver", "grass",    
+    "orange", "bottle", "snake", "planet", "coffee",
+    "forest", "singer", "number", "doctor", "wizard", 
+    "sunshine", "journey", "diamond", "heavens", "bubble"
+};
+
         public Words keywords;
         public string wordToGuess;
         public char[] displayedWord;
