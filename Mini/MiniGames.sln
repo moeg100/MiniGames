@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniGames", "MiniGames\Mini
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "..\ConsoleApp3\ConsoleApp3\ConsoleApp3.csproj", "{928E359D-0B72-77BF-8E36-E281196A7477}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guessing Game", "..\..\Desktop\Guessing-Game-test\Guessing-Game-test\Guessing Game\Guessing Game.csproj", "{DB7CB7DB-BBC2-4AA6-8BA2-7104E98D35BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guessing GameTests", "..\..\Desktop\Guessing-Game-test\Guessing-Game-test\Guessing GameTests\Guessing GameTests.csproj", "{A2107DBA-5B6A-4379-9588-68D6E527AE29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{928E359D-0B72-77BF-8E36-E281196A7477}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{928E359D-0B72-77BF-8E36-E281196A7477}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{928E359D-0B72-77BF-8E36-E281196A7477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB7CB7DB-BBC2-4AA6-8BA2-7104E98D35BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB7CB7DB-BBC2-4AA6-8BA2-7104E98D35BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB7CB7DB-BBC2-4AA6-8BA2-7104E98D35BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB7CB7DB-BBC2-4AA6-8BA2-7104E98D35BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2107DBA-5B6A-4379-9588-68D6E527AE29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2107DBA-5B6A-4379-9588-68D6E527AE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2107DBA-5B6A-4379-9588-68D6E527AE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2107DBA-5B6A-4379-9588-68D6E527AE29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
