@@ -20,9 +20,21 @@ namespace Guessing_Game
         // Word lists for different difficulties
         private Dictionary<Difficulty, List<string>> wordLists = new Dictionary<Difficulty, List<string>>()
         {
-            { Difficulty.Easy, new List<string> { "fork", "lamp", "moon", "tree", "code", "apple", "water", "table", "liver", "grass", "orange", "bottle", "snake", "planet", "coffee" } },
-            { Difficulty.Normal, new List<string> { "singer", "number", "doctor", "wizard", "sunshine", "journey", "diamond", "heavens", "bubble", "forest", "elephant", "giraffe", "kangaroo", "library" } },
-            { Difficulty.Hard, new List<string> { "mountain", "notebook", "octopus", "parrot", "rainbow", "strawberry", "telescope", "umbrella", "volcano", "watermelon", "xylophone", "zeppelin", "alligator", "basketball" } }
+            { Difficulty.Easy, new List<string> { "cat", "dog", "sun", "hat", "pen", "cup", "map", "ant", "egg", "fox",
+                                         "jam", "key", "leg", "mug", "nut", "owl", "pig", "rat", "sea", "van",
+                                         "zoo", "arm", "bed", "car", "duck", "fish", "girl", "hand", "jump", "kite",
+                                         "lamp", "moon", "nest", "open", "play", "rain", "sand", "tree", "wolf", "yarn",
+                                         "bear", "cold", "dark", "ear", "frog", "gold", "hill", "ice", "jazz", "king" } },
+            { Difficulty.Normal, new List<string> { "apple", "grape", "lemon", "melon", "peach", "beach", "cloud", "dance", "eagle", "flame",
+                                            "ghost", "happy", "igloo", "jelly", "koala", "light", "music", "night", "ocean", "panda",
+                                            "queen", "river", "smile", "tiger", "umbra", "vivid", "water", "xenon", "yacht", "zebra",
+                                            "amber", "brick", "candy", "daisy", "earth", "fairy", "giant", "horse", "island", "jungle",
+                                            "karma", "lucky", "magic", "noble", "olive", "piano", "quiet", "rocket", "sunny", "tulip" } },
+            { Difficulty.Hard, new List<string> {"banana", "chocolate", "elephant", "giraffe", "kangaroo", "library", "mountain", "notebook", "octopus", "parrot",
+                                          "quilt", "rainbow", "strawberry", "telescope", "umbrella", "volcano", "watermelon", "xylophone", "yellow", "zucchini",
+                                          "airplane", "butterfly", "dinosaur", "fireplace", "garden", "hospital", "jewelry", "keyboard", "lighthouse", "mushroom",
+                                          "necklace", "orchestra", "pineapple", "question", "restaurant", "sunflower", "triangle", "universe", "violin", "wonderful",
+                                          "xylograph", "yesterday", "zeppelin", "alligator", "basketball", "caterpillar", "dragonfly", "electricity", "flashlight" } }
         };
 
         private string wordToGuess;
